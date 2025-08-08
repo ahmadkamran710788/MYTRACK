@@ -514,8 +514,8 @@ export const sendCallbackEmails = async (callback: ICallbackRequest): Promise<vo
 // Create transporter with better error handling and validation
 const createTransporter1 = (): nodemailer.Transporter | null => {
   // Check if environment variables are set
-  const email = "jhon22333332@gmail.com";
-  const password ="qdah qlku dgkb ihcx";
+  const email = "ja1400056@gmail.com";
+  const password ="dabe ywbm dwcu hond";
 
   if (!email || !password) {
     console.error('❌ Missing email credentials. Please check NODEMAILER_EMAIL and NODEMAILER_PASS environment variables.');
